@@ -40,7 +40,7 @@ public class DiceGame {
 			die2 = roll();
 		}
 	}
-	private static boolean didIWin(int die1, int die2, String choice)
+	private static boolean didIWin(int die1, int die2, String choice) {
 	int even = (die1 + die2)%2;
 		
 	if(even == 0 && choice.equals("even")){
