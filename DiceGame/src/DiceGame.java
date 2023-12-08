@@ -49,12 +49,16 @@ public class DiceGame {
 		String [][] temp = new String[][] {
 	{ "Do you want to play?\nYes\nNo","How many players are there?","yes",
 		"Player ",": [0] Even\n[1] Odd","Die 1: ","\nDie 2: "," wins!"," loses!",
-		"Do you want to play again?\nYes\nNo", "Enter Language;\n[0] English\n[1] Hawaiian Pidgen\n[2]" 
+		"Do you want to play again?\nYes\nNo", "Enter Language;\n[0] English\n[1] Hawaiian Pidgen\n[2] 日本語" 
 		},
 	{
 		"Like try?\nYessah\nNo","How many dakine Braddahs?", "yessah","Braddah ",
 		": [0]Even\n[1] Odd", "Die 1; ","\nDie 2:","winnah!"," no neeyessad win.", 
 		"Like try again\nYessah\nNo"
+	}, 
+		{
+		"遊びたいですか。\nはい\nいいえ","参加者が何人いますか", "はい","参加者 ",":[0]偶数\n[1]奇数 ",
+		"さいころ（賽子）一: ","\nさいころ（賽子）二:","勝ち！ " ,"負け！","もう一回遊びたいですか。\\nはい\\nいいえ" 
 	}
 		};
 		return temp;
